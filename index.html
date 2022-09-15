@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <title>Likhita Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/4f335e3030.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#myskills">My Skills</a></li>
+                        <li><a href="#contact">Contact me</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Web Designer</p>
+                    <h1> Hi, I'm <span>Likhita Gunti</span> <br>Lingannagari From Tirupati</h1>
+                </div>
+            </div>
+        </div>
+        <!-----------about----------> 
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Likhi.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            I'm 2022 Graduate Student, I worked as a Full Stack Developer Intern at BrightGeeks-Adorning Your Dreams, work independently on creating e-commerce websites and customized gifting websites. I work in a team of 13 people and consistently provide innovative solutions to tasks assigned to me. As a Fresher I am quite excited to learn and my prime focus is to work hard, be a fast-learner and excel in the given platform. And to secure a responsible career opportunities to fully utilize my training and skill. I worked as a Web Designer for IEEE Women In Engineering Internation Leadership Summit 2022 organized by IEEE Hyderabad Section. I am Content Team Lead at IEEE SVCE Student Branch and also Chair for IEEE Women In Engineering Affinity Group at IEEE SVCE Student Branch. My hobbies are Browsing the Internet, Cocking, and playing outdoor games. I am an enthusiastic person and exited to learn new things.   
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span> C </span><br>I have Good knowledge on C Programming Language</li>
+                                <li><span>Java</span><br>Intermediate knowledge on Java Core Language</li>
+                                <li><span>HTML</span><br>Advanced knowledge on HTML</li>
+                                <li><span>Casecading Style Sheets</span><br> Intermediate knowledge on Casecading Style Sheets</li>
+                                <li><span>JavaScript</span><br> Intermediate knowledge on JavaScript</li>
+                                <li><span>Python</span><br>Intermediate knowledge on Python Programming Language</li>
+                                <li><span>Other Tools</span><br> Have Good knowlwdge on Other Tools like  <br> Canva - Designing Tool <br> Tablue - Data visualization Tool</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Dec-2021-Present</span><br>FULLSTACK DEVELOPER INTERN at <br> Bright Geeks pvt.Ltd. <br></li>
+                                <li><span>2022</span><br>WEB DESIGNER for <br> IEEE WIE INTERNATIONAL LEADERSHIP SUMMIT 2022 Hyderabad Section</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2018-2022</span><br>B.Tech Computer Science and Engineering at SV College of Engineering</li>
+                                <li><span>2016-2018</span><br>Intermediate from Sri Chaitanya Girls Junior College</li>
+                                <li><span>2015-2016</span><br>SSC from Z.P.High School</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------portfolio--------->   
+        <div id="portfolio">
+            <div class="container"></div>
+            <h1 class="sub-title">My Portfolio</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Designing Websites using HTML, CSS and JavaScript.<br> </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>WordPress Development</h2>
+                    <p>Developing Websites using WordPress tool by using Different Plugins.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Content Writing</h2>
+                    <p>Creating Creative contents for Blogs and writing different articles.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+        <!-------myskills------->
+        <div id="myskills">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="work1.jpeg">
+                        <div class="layer">
+                            <h3>Web Designing</h3>
+                            <p>Creating Web Applications using frontend Languages like HTML, CSS and JavaScript.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work.jpeg">
+                        <div class="layer">
+                            <h3>WordPress</h3>
+                            <p>Creating Innovative Web Pages using WordPress Tool with different Plugins.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work2.jpeg">
+                        <div class="layer">
+                            <h3>Content Writing</h3>
+                            <p>Writing Contents for Different types of Blogs and Articles and can write Social Media promoting Contents.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>   
+            </div>
+        </div>
+
+        <!--------Contact--------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-sharp fa-solid fa-envelope-open-text"></i>- likhitagunti@gmail.com</p>
+                        <p><i class="fa-duotone fa-phone"></i> - 63097 65539</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/likhita-gunti/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/likhita.guntilingannagari"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/likhita_gunti/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://mobile.twitter.com/GuntiLikhita"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <a href="likhitagunti Resume.pdf" download class="btn btn2">Download My Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email Id" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"> </span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright <i class="fa-solid fa-copyright"></i> made by Likhita Gunti  <i class="fa-solid fa-heart"></i></p>
+            </div>
+        </div>
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyNt-ij_wk-ID-oT7TjWT6N__9bxFBG1RSGQt9umSxc8633GOLIztELHD7ECOkRxDI/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Your Message Sent Successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+    </body>
+</html>
